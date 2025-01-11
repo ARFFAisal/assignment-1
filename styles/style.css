@@ -1,0 +1,91 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-button{
+    padding: auto;
+    color: rgb(62, 194, 62);
+    border-color: rgb(60, 189, 60);
+    border-radius: 5px;
+    height: 20px;
+    
+}
+nav button:hover{
+    background-color: aqua;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+    gap: 16px;
+    padding: 100px;
+    border-radius: 24px;
+}
+.banner-text{
+    max-width: 622px;
+}
+.banner-tittle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+}
+.banner-description{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 34px;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 80px;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-1{
+    width: 410px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.cart-2{
+    width: 410px;
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+}
+.cart-3{
+    width: 410px;
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px ;
+}
