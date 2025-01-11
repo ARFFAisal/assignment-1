@@ -92,14 +92,14 @@ main{
 }
 
 .cart-1-btn{
-    hyphens: ;
+    background-color: rgba(84, 144, 245, 1);
 
 }
 .cart-2-btn{
-padding: ;
+    background-color: rgba(9, 161, 92, 1);
 }
 .cart-2-btn{
-
+    background-color: rgba(255, 194, 57, 1);
 }
 .younus-kaku{
     position: absolute;
