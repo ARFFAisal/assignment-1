@@ -93,13 +93,24 @@ main{
 
 .cart-1-btn{
     background-color: rgba(84, 144, 245, 1);
-
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
 }
 .cart-2-btn{
     background-color: rgba(9, 161, 92, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
 }
-.cart-2-btn{
+.cart-3-btn{
     background-color: rgba(255, 194, 57, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
 }
 .younus-kaku{
     position: absolute;
@@ -136,4 +147,44 @@ main{
 .barta{
     padding: 32px;
 }
+.read-button{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    max-width: 139px;
+    height: 48px;
+    color: white;
+    border: none;
+}
+.donation{
+    align-items: center;
+}
 
+.donate-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dnt-btn{
+    height:128px ;
+    max-width: 240px ;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 16px;
+}
+.btn-bg{
+    background-color: rgba(198, 228, 214, 1);
+}
+.inpu-cla{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+}
+
+.input-btn{
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
